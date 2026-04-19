@@ -15,7 +15,7 @@ public class JDBCDemo {
             Statement stmt = con.createStatement();
 
             // Insert Data
-String insertQuery = "INSERT INTO student VALUES (101, 'Tilak')";
+String insertQuery = "INSERT INTO student VALUES (101, 'IMDAD')";
             stmt.executeUpdate(insertQuery);
 
             System.out.println("Data inserted successfully.\n");
